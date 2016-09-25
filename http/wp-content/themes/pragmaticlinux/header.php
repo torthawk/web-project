@@ -5,6 +5,7 @@
         <title>Pragmatic Linux - Web Development</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=yes">
         <?php wp_head(); ?>
         <script 
         src="https://use.fontawesome.com/20bd2b85aa.js"></script>
@@ -24,6 +25,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a href="<?php echo home_url(); ?>"><img src="http://pragmaticlinux.org/AlbanMulaki/PragmaticLinux/logo/PragramaticLinuxLogoInvert.png" class="img-responsive " style='max-height:85px;margin-left:10%;' /></a>
+                            <h1 itemprop="name">WP Header</h1>
                         </div>
 
                     </div>
